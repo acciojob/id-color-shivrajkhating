@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS ID Selectors</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ID Selector Styling</title>
+
+    <style>
+        /* Styling for each paragraph using ID selectors */
+        #yellow {
+            background-color: yellow;
+            border: 1px solid green;
+            padding: 10px;
+        }
+
+        #red {
+            background-color: red;
+            border: 1px solid black;
+            padding: 10px;
+            color: white; /* to make text visible */
+        }
+
+        #green {
+            background-color: green;
+            border: 1px solid yellow;
+            padding: 10px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <!-- Paragraphs with unique IDs -->
-    <p id="yellow">This is a yellow paragraph</p>
-    <p id="red">This is a red paragraph</p>
-    <p id="green">This is a green paragraph</p>
-
-    <script type="text/javascript" src="./script.js"></script>
+    <p id="yellow">This is a yellow paragraph with a green border.</p>
+    <p id="red">This is a red paragraph with a black border.</p>
+    <p id="green">This is a green paragraph with a yellow border.</p>
 </body>
 </html>
-
